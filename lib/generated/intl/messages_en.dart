@@ -1,0 +1,59 @@
+// DO NOT EDIT. This is code generated via package:intl/generate_localized.dart
+// This is a library that provides messages for a en locale. All the
+// messages from the main program should be duplicated here with the same
+// function name.
+
+// Ignore issues from commonly used lints in this file.
+// ignore_for_file:unnecessary_brace_in_string_interps, unnecessary_new
+// ignore_for_file:prefer_single_quotes,comment_references, directives_ordering
+// ignore_for_file:annotate_overrides,prefer_generic_function_type_aliases
+// ignore_for_file:unused_import, file_names, avoid_escaping_inner_quotes
+// ignore_for_file:unnecessary_string_interpolations, unnecessary_string_escapes
+
+import 'package:intl/intl.dart';
+import 'package:intl/message_lookup_by_library.dart';
+
+final messages = new MessageLookup();
+
+typedef String MessageIfAbsent(String messageStr, List<dynamic> args);
+
+class MessageLookup extends MessageLookupByLibrary {
+  String get localeName => 'en';
+
+  final messages = _notInlinedMessages(_notInlinedMessages);
+  static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
+        "attachmentText": MessageLookupByLibrary.simpleMessage("Attachment"),
+        "closeText": MessageLookupByLibrary.simpleMessage("Close"),
+        "createdTimeText": MessageLookupByLibrary.simpleMessage("Created Time"),
+        "deleteText": MessageLookupByLibrary.simpleMessage("Delete"),
+        "departmentText": MessageLookupByLibrary.simpleMessage("Department"),
+        "editImageText": MessageLookupByLibrary.simpleMessage("Update Image"),
+        "emptinessText": MessageLookupByLibrary.simpleMessage("List is empty"),
+        "emptyMyTicketListText":
+            MessageLookupByLibrary.simpleMessage("No Ticket Found!"),
+        "fromCameraText": MessageLookupByLibrary.simpleMessage("Camera"),
+        "fromGalleryText": MessageLookupByLibrary.simpleMessage("Gallery"),
+        "insertTicketInformation":
+            MessageLookupByLibrary.simpleMessage("Insert Ticket Information"),
+        "listOfTicketsText":
+            MessageLookupByLibrary.simpleMessage("Tickets List"),
+        "newTicketBodyText":
+            MessageLookupByLibrary.simpleMessage("Ticket Message"),
+        "newTicketText": MessageLookupByLibrary.simpleMessage("New Ticket"),
+        "newTicketTitleText":
+            MessageLookupByLibrary.simpleMessage("Ticket Title"),
+        "pleaseAddImageTicketText": MessageLookupByLibrary.simpleMessage(
+            "Please insert an image if you had"),
+        "priorityText": MessageLookupByLibrary.simpleMessage("Priority"),
+        "selectImageText": MessageLookupByLibrary.simpleMessage("Select Image"),
+        "somethingWentWrongText":
+            MessageLookupByLibrary.simpleMessage("Something went wrong!"),
+        "submitTicketMessageText":
+            MessageLookupByLibrary.simpleMessage("Send Message"),
+        "ticketRegistrationButtonText":
+            MessageLookupByLibrary.simpleMessage("Submit Ticket"),
+        "ticketText": MessageLookupByLibrary.simpleMessage("Ticket"),
+        "ticketsText": MessageLookupByLibrary.simpleMessage("Tickets"),
+        "tryAgainText": MessageLookupByLibrary.simpleMessage("Try Again")
+      };
+}

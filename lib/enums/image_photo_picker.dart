@@ -1,0 +1,4 @@
+enum ImagePhotoPicker {
+  addingTicketImage,
+  editingOrDeletingTicketImage,
+}

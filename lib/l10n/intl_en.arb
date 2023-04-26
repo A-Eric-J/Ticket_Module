@@ -1,0 +1,28 @@
+{
+
+  "ticketsText" : "Tickets",
+  "ticketText" : "Ticket",
+  "closeText" : "Close",
+  "newTicketText" : "New Ticket",
+  "listOfTicketsText" : "Tickets List",
+  "emptyMyTicketListText" : "No Ticket Found!",
+  "insertTicketInformation" : "Insert Ticket Information",
+  "newTicketTitleText" : "Ticket Title",
+  "newTicketBodyText" : "Ticket Message",
+  "fromGalleryText": "Gallery",
+  "fromCameraText": "Camera",
+  "deleteText": "Delete",
+  "selectImageText" : "Select Image",
+  "editImageText" : "Update Image",
+  "pleaseAddImageTicketText" : "Please insert an image if you had",
+  "departmentText" : "Department",
+  "ticketRegistrationButtonText" : "Submit Ticket",
+  "priorityText" : "Priority",
+  "createdTimeText" : "Created Time",
+  "submitTicketMessageText" : "Send Message",
+  "attachmentText" : "Attachment",
+  "somethingWentWrongText" : "Something went wrong!",
+   "tryAgainText" : "Try Again",
+   "emptinessText" : "List is empty"
+
+}
